@@ -61,7 +61,7 @@ h3 {
     margin-bottom: 0.25em;
 }
 
-h2{
+h2 {
     font-family: 'Rochester', cursive;
     font-size: 45px;
     text-align: center;
@@ -136,7 +136,7 @@ p {
     padding: 1em;
 }
 
-.ebgames{
+.ebgames {
     display: flex;
     align-items: center;
     background-color: rgb(255, 192, 221);
@@ -171,4 +171,12 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+a {
+    color: rgb(68, 122, 71);
+}
+
+a:visited {
+    color: rgb(68, 122, 71);
 }
