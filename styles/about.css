@@ -1,0 +1,174 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Assistant&family=Cormorant+Garamond&family=Cormorant+Upright&family=Italianno&family=Laila&family=Literata:opsz@7..72&family=Lora&family=Parisienne&family=Petit+Formal+Script&family=Playfair+Display&family=Pontano+Sans&family=Prata&family=Rochester&family=Tangerine:wght@700&family=Taviraj&display=swap");
+
+body {
+    background-color: rgb(235, 243, 255);
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    height: 2em;
+    background-image: url(../images/kumiko-shimizu-TCl6He6cjY4-unsplash.jpg);
+    background-position: center;
+    font-family: 'Rochester', cursive;
+    font-size: 95px;
+    text-shadow: 2px 2px rgb(255, 192, 221, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: rgb(255, 192, 221);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    transition: 0.5s;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 18px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgb(255, 255, 255, 0.4);
+    transition: 0.5s;
+}
+
+nav ul li a:visited {
+    color: rgb(0, 0, 0);
+}
+
+nav ul img {
+    width: 15px;
+}
+
+section {
+    margin: 0em 2em 2em 2em;
+}
+
+h3 {
+    font-size: 28px;
+    text-decoration: underline;
+    margin-bottom: 0.25em;
+}
+
+h2{
+    font-family: 'Rochester', cursive;
+    font-size: 45px;
+    text-align: center;
+    padding: 0.5em;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+.gingerneersEditor {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 192, 221);
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+.gingerneersEditor p {
+    width: 50%;
+}
+
+.gingerneersEditor div {
+    padding: 1em;
+    margin: auto;
+}
+
+.gingerneersEditorDesc {
+    display: flex;
+}
+
+.gingerneersEditor img {
+    width: 600px;
+}
+
+.skills {
+    background-color: rgb(255, 255, 255);
+    line-height: 1.5em;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.skills h4 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.gingerGraphicDesign {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 192, 221);
+    border-radius: 10px;
+    margin-bottom: 2em;
+    padding: 1em;
+    justify-content: space-around;
+}
+
+.graphicDesc {
+    width: 20%;
+}
+
+.gingerGraphicDesign img {
+    width: 300px;
+    padding: 1em;
+}
+
+.ebgames{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 192, 221);
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding: 1em;
+    justify-content: space-around;
+}
+
+.ebgames h4 {
+    width: 20%;
+}
+
+.ebgames p {
+    width: 55%;
+    padding: 1em;
+}
+
+.ebgames {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 192, 221);
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding: 1em;
+    justify-content: space-around;
+}
+
+.travels figure {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

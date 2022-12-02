@@ -1,0 +1,114 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Assistant&family=Cormorant+Garamond&family=Cormorant+Upright&family=Italianno&family=Laila&family=Literata:opsz@7..72&family=Lora&family=Parisienne&family=Petit+Formal+Script&family=Playfair+Display&family=Pontano+Sans&family=Prata&family=Rochester&family=Tangerine:wght@700&family=Taviraj&display=swap");
+
+
+body {
+    height: 20em;
+    background-image: url(../images/tomoko-uji-kxvn1ogpTtE-unsplash-Large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Playfair Display', serif;
+}
+
+nav {
+    background-color: rgb(255, 192, 221);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    transition: 0.5s;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 18px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgb(255, 255, 255, 0.4);
+    transition: 0.5s;
+}
+
+nav ul li a:visited {
+    color: rgb(0, 0, 0);
+}
+
+nav ul img {
+    width: 15px;
+}
+
+.h1andimg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1 {
+    padding: 2em;
+    text-align: right;
+    order: 2;
+}
+
+h1 {
+    font-family: 'Rochester', cursive;
+    font-size: 95px;
+    text-shadow: 2px 2px rgb(255, 192, 221, 0.8);
+}
+ 
+.h1 p {
+    font-size: 25px;
+}
+
+figure {
+    padding: 2em;
+}
+
+figure img {
+    width: 300px;
+    border: 1em solid;
+    border-color: rgb(232, 253, 255);
+    border-radius: 5px;
+}
+
+.bio {
+    width: 30%;
+    text-align: center;
+    padding: 1em;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.bio h2 {
+    font-family: 'Rochester', cursive;
+    font-size: 35px;
+}
+
+.bio p {
+    padding: 0.5em;
+    line-height: 1.5em;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 18px;
+}
+
+.links a {
+    color: rgb(68, 122, 71);
+}
+
+.links a:visited {
+    color: rgb(68, 122, 71);
+}
+
+footer {
+    margin-left: 3em;
+    margin-top: 15%;
+}
